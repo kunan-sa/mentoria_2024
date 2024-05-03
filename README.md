@@ -7,7 +7,7 @@ Mail de contacto: ehaluszka@unc.edu.ar
 
 ## Introducción
 ### Descripción y objetivo del proyecto 
-El dataset a trabajar presenta información sobre los turnos médicos sacados por los pacientes de diversos centros de salud. El objetivo de esta mentoría radica en reconocer cómo será el comportamiento de un paciente ante un determinado turno, ¿asistirá? ¿no asistirá? Identificar estas situaciones permite a la clínica poder tomar acciones previas, como por ejemplo enviar notificaciones a lxs pacientes que no vayan a asistir, entre otros beneficios.
+El dataset a trabajar presenta información sobre los turnos médicos sacados, a través de un asistente conversacional, por los pacientes de diversos centros de salud. El objetivo de esta mentoría radica en reconocer cómo será el comportamiento de un paciente ante un determinado turno, ¿asistirá? ¿no asistirá? Identificar estas situaciones permite a la clínica poder tomar acciones previas, como por ejemplo enviar notificaciones a lxs pacientes que no vayan a asistir, entre otros beneficios.
 
 ### Con éste proyecto trataremos de responder algunas de las siguientes preguntas
 - Todos los centros médicos presentan el mismo comportamiento de sus pacientes? De no ser así, ¿cuáles son las principales diferencias y a qué se le atribuye?
