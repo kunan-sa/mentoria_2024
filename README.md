@@ -30,24 +30,24 @@ El dataset con el que trabajaremos este práctico consta de 47k filas (47088 par
 
 El significado de cada columna es el siguiente:
 
-**doc_id**: Es el ID único que tiene cada médicx en cada clínica y sede.
-**doc_full_name**: Nombre y apellido de cada especialista anonimizado.
-**msp_name**: Nombre de la especialidad médica.
-**msp_id**: ID de la especialidad médica único en cada clínica y sede.
-**hos_id**: Nombre de la clínica anonimizado.
-**heq_id**: ID de la sede de cada clínica. Hay algunos centros médicos que son monosede y otros multisede.
-**hin_name**: Nombre de la obra social, particular o servicio de seguro de salud con el cual realiza la consulta médica.
-**hin_id**: ID del hin_name el cual resulta único en cada clínica y sede.
-**age_avg**: Estimación del promedio de edad calculado a partir del DNI de lxs pacientes.
-**dni_asistance_rate**: Tasa de asistencia de cada paciente. Cantidad de turnos que ha asistido cada paciente históricamente/Cantidad de turnos que ha sacado cada paciente históricamente*100.
-**doc_asistance_rate**: Tasa de asistencia de cada especialista por hospital y sede. Cantidad de pacientes que han asistido históricamente por especialista/Cantidad de pacientes que han sacado turno históricamente por especialista*100.
-**msp_asistance_rate**: Tasa de asistencia de cada especialidad médica por hospital y sede. Cantidad de pacientes que han asistido históricamente por especialidad/Cantidad de pacientes que han sacado turno históricamente por especialidad*100.
-**hosheq_asistance_rate**: Tasa de asistencia global de cada hospital y sede. Cantidad de pacientes que han asistido históricamente por hospital y sede/Cantidad de pacientes que han sacado turno históricamente por hospital y sede*100.
-**app_start_dt**: Fecha del turno médico.
-**action_A_count**: Cantidad de turnos sacados históricamente por el paciente a través del asistente conversacional.
-**action_B_count**: Cantidad de turnos cancelados históricamente por el paciente a através del asistente conversacional.
-**action_C_count**: Cantidad de veces que el paciente consultó su turno (ver citas pendientes).
-**app_days_gap**: Distancia en días entre la fecha en que la persona realizó la solicitud del turno y la fecha del turno efectivamente.
-**patient_id**: ID único de cada paciente dentro de cada clínica y sede.
-**event_id**: ID único de cada turno médico global.
+- **doc_id**: Es el ID único que tiene cada médicx en cada clínica y sede.
+- **doc_full_name**: Nombre y apellido de cada especialista anonimizado.
+- **msp_name**: Nombre de la especialidad médica.
+- **msp_id**: ID de la especialidad médica único en cada clínica y sede.
+- **hos_id**: Nombre de la clínica anonimizado.
+- **heq_id**: ID de la sede de cada clínica. Hay algunos centros médicos que son monosede y otros multisede.
+- **hin_name**: Nombre de la obra social, particular o servicio de seguro de salud con el cual realiza la consulta médica.
+- **hin_id**: ID del hin_name el cual resulta único en cada clínica y sede.
+- **age_avg**: Estimación del promedio de edad calculado a partir del DNI de lxs pacientes.
+- **dni_asistance_rate**: Tasa de asistencia de cada paciente. Cantidad de turnos que ha asistido cada paciente históricamente/Cantidad de turnos que ha sacado cada paciente históricamente*100.
+- **doc_asistance_rate**: Tasa de asistencia de cada especialista por hospital y sede. Cantidad de pacientes que han asistido históricamente por especialista/Cantidad de pacientes que han sacado turno históricamente por especialista*100.
+- **msp_asistance_rate**: Tasa de asistencia de cada especialidad médica por hospital y sede. Cantidad de pacientes que han asistido históricamente por especialidad/Cantidad de pacientes que han sacado turno históricamente por especialidad*100.
+- **hosheq_asistance_rate**: Tasa de asistencia global de cada hospital y sede. Cantidad de pacientes que han asistido históricamente por hospital y sede/Cantidad de pacientes que han sacado turno históricamente por hospital y sede*100.
+- **app_start_dt**: Fecha del turno médico.
+- **action_A_count**: Cantidad de turnos sacados históricamente por el paciente a través del asistente conversacional.
+- **action_B_count**: Cantidad de turnos cancelados históricamente por el paciente a através del asistente conversacional.
+- **action_C_count**: Cantidad de veces que el paciente consultó su turno (ver citas pendientes).
+- **app_days_gap**: Distancia en días entre la fecha en que la persona realizó la solicitud del turno y la fecha del turno efectivamente.
+- **patient_id**: ID único de cada paciente dentro de cada clínica y sede.
+- **event_id**: ID único de cada turno médico global.
 **attendance**: Variable que indica 0 si la persona no asistió a su turno programado y 1 si la persona asistió.
